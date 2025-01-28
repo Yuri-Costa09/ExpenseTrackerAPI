@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DA9D7748-7A99-46E5-9B40-437F01DAFFC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Web", "ExpenseTracker.Web\ExpenseTracker.Web.csproj", "{D9311163-C3A2-43B2-8151-42978379AFCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Domain", "ExpenseTracker.Domain\ExpenseTracker.Domain.csproj", "{8900E40A-B070-4663-9BD9-06F443208FE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9311163-C3A2-43B2-8151-42978379AFCE} = {DA9D7748-7A99-46E5-9B40-437F01DAFFC6}
+		{8900E40A-B070-4663-9BD9-06F443208FE2} = {DA9D7748-7A99-46E5-9B40-437F01DAFFC6}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9311163-C3A2-43B2-8151-42978379AFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9311163-C3A2-43B2-8151-42978379AFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9311163-C3A2-43B2-8151-42978379AFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9311163-C3A2-43B2-8151-42978379AFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8900E40A-B070-4663-9BD9-06F443208FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8900E40A-B070-4663-9BD9-06F443208FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8900E40A-B070-4663-9BD9-06F443208FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8900E40A-B070-4663-9BD9-06F443208FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
