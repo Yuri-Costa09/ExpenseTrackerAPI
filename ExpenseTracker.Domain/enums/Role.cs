@@ -1,7 +1,7 @@
-namespace ExpenseTracker.Domain.repositories;
+namespace ExpenseTracker.Domain.enums;
 
 public enum Role
 {
-    USER = 1,
-    ADMIN = 2
+    USER,
+    ADMIN
 }
